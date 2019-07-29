@@ -21,11 +21,11 @@ All the outcomes are summarized in the [Report](Report.pdf).
 
 ## Approach
 
-The work considered the originally introduced architectures for [DCGAN](https://arxiv.org/abs/1511.06434) and CCGAN (https://github.com/eriklindernoren/Keras-GAN/blob/master/ccgan/ccgan.py) which were modified to give the best performance which was measured through inspection in case of a DCGAN and inception score through a LeNet in case of a CCGAN. Additionally, this work explored the leverage to which the CCGAN can be trained on synthetic images. Last but not least, probabilistic principle component analysis (PPCA) was used to generated images as a reference in addition to DCGAN and CCGAN.
+The work considered the originally introduced architectures for [DCGAN](https://arxiv.org/abs/1511.06434) and [CCGAN](https://github.com/eriklindernoren/Keras-GAN/blob/master/ccgan/ccgan.py) which were modified to give the best performance which was measured through inspection in case of a DCGAN and inception score through a LeNet in case of a CCGAN. Additionally, this work explored the leverage to which the CCGAN can be trained on synthetic images. Last but not least, probabilistic principle component analysis (PPCA) was used to generated images as a reference in addition to DCGAN and CCGAN.
 
 DCGAN generated numbers |  CCGAN generated numbers
 :-------------------------:|:-------------------------:
-![](Figures/DCGAN_1_1_32/sample_labeled_DCGAN_1_1_32_20.png)  |  ![](Figures/sample_CGAN_1_1_64/sample_CGAN_1_1_64_24.png)
+![](Figures/DCGAN_1_1_32/sample_labeled_DCGAN_1_1_32_20.png)  |  ![](Figures/CGAN_1_1_64_ls/sample_CGAN_1_1_64_ls_24.png)
 
 ## Evaluation
 
